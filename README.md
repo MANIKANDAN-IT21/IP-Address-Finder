@@ -1,5 +1,5 @@
 ## 📌Here the My Magic site Output!!
-![image](https://github.com/MANIKANDAN-IT21/IP-Address-Finder/assets/95203058/75e378bf-619f-4417-9d74-74c6969a239b)
+![Screenshot 2024-03-11 190710](https://github.com/MANIKANDAN-IT21/IP-Address-Finder/assets/95203058/d754d5b2-34ad-45ce-a6dd-bf238bd693ff)
 
 # Getting Started with Create React App
 
