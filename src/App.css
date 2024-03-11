@@ -1,38 +1,90 @@
+/* App.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  background-color: black;
+  border: red;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 60vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.left {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 40%;
+}
+.Quest {
+  color: rgba(245, 242, 49, 0.952);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.map {
+  width: 100%;
+  height: 300px;
+  border: 4px solid rgba(245, 242, 49, 0.952);
+}
+
+.mark {
+  padding: 20px;
+  border-radius: 50%;
+  background-color: rgba(245, 242, 49, 0.952);
+}
+
+.heading {
+  font-size: 40px;
+  text-align: center;
+  font-family: monospace;
+  color: rgba(245, 242, 49, 0.952);
+}
+
+p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.952);
+}
+
+#ip {
+  color: rgba(255, 255, 255, 0.952);
+}
+
+/* Media query for small screens (up to 768px) */
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .left {
+    width: 100%;
   }
+
+  .map {
+    height: 200px;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .loading-gif {
+    display: none; /* Hide the GIF on smaller screens */
+  }
+}
+/* #Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add any other styles as needed */
+
+.loading-gif {
+  width: 500px;
+  height: auto;
 }
